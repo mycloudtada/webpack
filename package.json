@@ -3,7 +3,7 @@
   "version": "0.1.2",
   "private": true,
   "description": "The main site for all things webpack.",
-  "homepage": "https://github.com/webpack/webpack.js.org",
+  "homepage": "https://github.com/mycloudtada/webpack",
   "author": "Greg Venech",
   "license": "CC BY 4.0",
   "main": "n/a",
@@ -15,10 +15,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/webpack/webpack.js.org.git"
+    "url": "https://github.com/mycloudtada/webpack.git"
   },
   "bugs": {
-    "url": "https://github.com/webpack/webpack.js.org/issues"
+    "url": "https://github.com/mycloudtada/webpack/issues"
   },
   "engines": {
     "node": ">= 18.12.0"
