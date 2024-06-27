@@ -3,7 +3,7 @@
   "version": "0.1.2",
   "private": true,
   "description": "The main site for all things webpack.",
-  "homepage": "https://github.com/mycloudtada/webpack",
+  "homepage": "https://hautph.github.io/webpack",
   "author": "Greg Venech",
   "license": "CC BY 4.0",
   "main": "n/a",
@@ -56,7 +56,9 @@
     "cypress:open": "cypress open",
     "cypress:run": "cypress run --browser chrome",
     "prettier": "prettier --write '**/*.{js,json,jsx,css,scss,md,mdx}'",
-    "prepare": "husky install && rimraf ./node_modules/.cache/webpack && yarn-deduplicate --strategy fewer"
+    "prepare": "husky install && rimraf ./node_modules/.cache/webpack && yarn-deduplicate --strategy fewer",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "lint-staged": {
     "*.{js,jsx,md,mdx}": [
